@@ -1,0 +1,200 @@
+<html lang="uk">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Моя Сторінка</title>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            background-color: #f0f0f0;  
+            margin: 0;  
+            padding: 20px;  
+        }  
+        .container {  
+            display: grid;  
+            grid-template-columns: 1fr 2fr;  
+            grid-template-rows: auto;  
+            gap: 20px;  
+            background-color: #4a90e2;  
+            padding: 20px;  
+            border-radius: 10px;  
+        }  
+        .photo {  
+            grid-column: 1 / 2;  
+            grid-row: 1 / 3;  
+            background-color: #fff;  
+            padding: 10px;  
+            border-radius: 10px;  
+            text-align: center;  
+        }  
+        .content {  
+            background-color: #fff;  
+            padding: 10px;  
+            border-radius: 10px;  
+        }  
+        table {  
+            width: 100%;  
+            border-collapse: collapse;  
+        }  
+        th, td {  
+            border: 1px solid #ddd;  
+            padding: 8px;  
+            text-align: left;  
+        }  
+        th {  
+            background-color: #f2f2f2;  
+        }  
+        .stars {  
+            color: gold;  
+        }  
+        .contact-form {  
+            background-color: #fff;  
+            padding: 20px;  
+            border-radius: 10px;  
+            margin-top: 20px;  
+        }  
+        input, textarea {  
+            width: 100%;  
+            padding: 10px;  
+            margin: 10px 0;  
+            border: 1px solid #ccc;  
+            border-radius: 5px;  
+        }  
+        button {  
+            background-color: #4a90e2;  
+            color: white;  
+            border: none;  
+            padding: 10px;  
+            border-radius: 5px;  
+            cursor: pointer;  
+        }  
+        button:hover {  
+            background-color: #357ab8;  
+        }  
+    </style>  
+</head>  
+<body>  
+
+<div class="container">  
+    <div class="photo">  
+        <img src="https://i.imgur.com/3byP42w.jpeg" alt="Моє фото" style="width: 100%; border-radius: 10px;">  
+    </div>  
+    <div class="content">  
+        <h2>Про себе</h2>  
+        <p>Я — програміст, який захоплюється автомобілями та подорожами. Завжди готовий до нових пригод і викликів, я прагну поєднувати свою любов до технологій з дослідженням світу навколо. Мені подобається відкривати нові маршрути та досліджувати культуру різних країн.</p>  
+    </div>  
+    <div class="content">  
+        <h2>Освіта</h2>  
+        <p>Я отримав вищу освіту в галузі комп'ютерних наук, де вивчав програмування, алгоритми та сучасні технології. Моя освіта допомогла мені стати кваліфікованим спеціалістом у сфері розробки програмного забезпечення. Я також проходив курси з автомобільної механіки, адже люблю розуміти технології, які мене оточують, далеко за межами коду.</p>  
+    </div>  
+    <div class="content">  
+        <h2>Досвід роботи</h2>  
+        <table>  
+            <tr>  
+                <th>Посада</th>  
+                <th>Компанія</th>  
+                <th>Роки</th>  
+            </tr>  
+            <tr>  
+                <td>Програміст</td>  
+                <td>Tech Solutions</td>  
+                <td>2020 - теперішній час</td>  
+            </tr>  
+            <tr>  
+                <td>Стажер</td>  
+                <td>Web Innovations</td>  
+                <td>2019 - 2020</td>  
+            </tr>  
+        </table>  
+    </div>  
+    <div class="content">  
+        <h2>Навички</h2>  
+        <table>  
+            <tr>  
+                <th>Навичка</th>  
+                <th>Оцінка</th>  
+                <th>Навичка</th>  
+                <th>Оцінка</th>  
+            </tr>  
+            <tr>  
+                <td>HTML(5)</td>  
+                <td class="stars">⭐⭐⭐⭐⭐</td>  
+                <td>C++</td>  
+                <td class="stars">⭐⭐⭐⭐</td>  
+            </tr>  
+            <tr>  
+                <td>CSS(3)</td>  
+                <td class="stars">⭐⭐⭐⭐</td>  
+                <td>Photography</td>  
+                <td class="stars">⭐⭐⭐</td>  
+            </tr>  
+            <tr>  
+                <td>JavaScript</td>  
+                <td class="stars">⭐⭐⭐⭐⭐</td>  
+                <td>Painting</td>  
+                <td class="stars">⭐⭐</td>  
+            </tr>  
+            <tr>  
+                <td>Python</td>  
+                <td class="stars">⭐⭐⭐⭐</td>  
+                <td>Data Analysis</td>  
+                <td class="stars">⭐⭐⭐⭐</td>  
+            </tr>  
+            <tr>  
+                <td>SQL</td>  
+                <td class="stars">⭐⭐⭐⭐</td>  
+                <td>Machine Learning</td>  
+                <td class="stars">⭐⭐⭐</td>  
+            </tr>  
+            <tr>  
+                <td>React</td>  
+                <td class="stars">⭐⭐⭐⭐</td>  
+                <td>Project Management</td>  
+                <td class="stars">⭐⭐⭐⭐⭐</td>  
+            </tr>  
+        </table>  
+    </div>  
+    <div class="content">  
+        <h2>Улюблені книжки</h2>  
+        <ul>  
+            <li>"Чистий код" Роберта Мартіна</li>  
+            <li>"1984" Джорджа Оруелла</li>  
+            <li>"В пошуках щастя" Джона Грійна</li>  
+        </ul>  
+    </div>  
+    <div class="content">  
+        <h2>Улюблені фільми</h2>  
+        <ul>  
+            <li>"Інформаційна війна"</li>  
+            <li>"Гонщик"</li>  
+            <li>"Едвард руки-ножиці"</li>  
+        </ul>  
+    </div>  
+    <div class="content">  
+        <h2>Улюблені заняття</h2>  
+        <ul>  
+            <li>Програмування</li>  
+            <li>Подорожі</li>  
+            <li>Автомобільна механіка</li>  
+            <li>Читання та кіно</li>  
+        </ul>  
+    </div>  
+    <div class="contact-form">  
+        <h2>Контакти</h2>  
+        <form action="your-server-script.php" method="post">  
+            <label for="name">Ваше ім'я:</label>  
+            <input type="text" id="name" name="name" required>  
+
+            <label for="email">Ваша електронна пошта:</label>  
+            <input type="email" id="email" name="email" required>  
+
+            <label for="message">Ваше повідомлення:</label>  
+            <textarea id="message" name="message" rows="4" required></textarea>  
+
+            <button type="submit">Відправити</button>  
+        </form>  
+    </div>  
+</div>  
+
+</body>  
+</html>
